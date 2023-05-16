@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #000;
+}
+
+.box-one{
+    Width:750px;
+    Height:450px;
+    background: #272C34;
+    position: absolute;
+    margin-left: 480px;
+    margin-top: 80px;
+    border-radius: 24px;
+}
+
+.logo{
+    display: inline-block;
+    width: 47px;
+    margin: 37px 0 0 35px;
+    position: absolute;
+}
+
+.menu{
+    width: 100%;
+}
+
+header{
+    display: flex;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    margin: 40px 0;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    gap: 38px;
+}
+
+li{
+    font-size: 12px;
+    font-weight: 400;
+    width: 100%;
+    color: #fff;
+    cursor: pointer;
+}
+
+.red{
+    color: #EB1B24;
+}
+
+li:hover{
+    color: #EB1B24;
+}
+
+.red:hover{
+    color: #fff;
+}
+
+.phone{
+    width: 300px;
+    float: right;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0 40px;
+    color: #F7E6D3;
+    line-height: 30px;
+}
+
+h3{
+    font-weight: 300;
+    line-height: 46px;
+    color: #fff;
+    margin: 0 40px;
+}
+
+h4{
+    font-size: 22px;
+    font-weight: 400;
+    color: #EB1B24;
+    margin: 20px 40px;
+}
+
+button{
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 14px;
+    width: 98px;
+    height: 31px;
+    border: none;
+    border: 0.76px solid #FFFFFF;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover{
+    color: #000;
+    background: #EB1B24;
+border: none;
+}
+
+.button-card:hover{
+    background: #fff;
+    color: #000;
+}
+
+.button-card{
+    background: #EB1B24;
+    border: none;
+    margin: 0 5px;
+    margin-left: 40px;
+}
+
+.information{
+    margin-top: 50px;
+}
+
+.box-two{
+    width: 28%
+}
+
+h2{
+    font-size: 50px;
+    font-weight: 500;
+    position: relative;
+    top: 140px;
+    left: 40px;
+    color: #fff;
+}
+
